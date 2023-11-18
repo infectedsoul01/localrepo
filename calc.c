@@ -4,7 +4,7 @@ void add()
     printf("Enter two number ");
     scanf("%d%d",&a,&b);
     printf("the sum of given number is %d",a+b);
-    
+
 }
 void subtraction()
 {
@@ -19,5 +19,7 @@ int main()
     printf("what do you want to perform +,-,* or /");
     if(ch == '+')
         add();
+    else if(ch == '-')
+        sub();
 
 }
